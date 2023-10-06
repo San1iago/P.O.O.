@@ -1,0 +1,23 @@
+num_1 = int(input(" Ingrese valor 1: "))
+num_2 = int(input(" ingrese valor 2: "))
+
+if (num_2==0):
+   print( " Dato Invalido " )
+   num_2 = int(input(" digite un nuevo valor: "))
+   R_suma=num_1 + num_2
+   R_resta=num_1 - num_2
+   R_division=num_1 / num_2 
+   R_multiplicacion=num_1 * num_2
+   print ( f" rel resultado de la suma es:{R_suma}")
+   print ( f" rel resultado de la resta es:{R_resta}")
+   print ( f" rel resultado de la division es:{R_division}")
+   print ( f" rel resultado de la multiplicacion es:{R_multiplicacion}")
+else: 
+      R_suma=num_1 + num_2
+      R_resta=num_1 - num_2
+      R_division=num_1 / num_2 
+      R_multiplicacion=num_1 * num_2
+      print ( f" rel resultado de la suma es:{R_suma}")
+      print ( f" rel resultado de la resta es:{R_resta}")
+      print ( f" rel resultado de la division es:{R_division}")
+      print ( f" rel resultado de la multiplicacion es:{R_multiplicacion}")
