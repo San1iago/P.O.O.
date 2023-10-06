@@ -25,6 +25,7 @@ else:
 Operaciones Aritemticas 05/10/2023
 
 
+
 num_1 = int(input(" Ingrese valor 1: "))
 num_2 = int(input(" ingrese valor 2: "))
 
